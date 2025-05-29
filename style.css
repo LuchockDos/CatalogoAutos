@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body
+{
+    background-color: #000;
+}
+
 .container_main
 {
     width: 100%;
@@ -11,7 +16,6 @@
     display: grid;
     grid-template-columns: 200px 1fr;
     overflow: auto;
-    background-color: rgb(236, 239, 218);
 }
 .container_aside
 {
