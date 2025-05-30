@@ -107,15 +107,17 @@ body
 .titles_pickups h1
 {
     font-size: 40px;
+    color: white;
 }
 .titles_pickups h3
 {
     font-size: 20px;
+    color: white;
 }
 
 .container_image_card
 {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin: auto;
     display: grid;
@@ -140,9 +142,9 @@ body
 .pickups_details
 {
     width: 50%;
-    height: 100px;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     padding: 20px;
 }
 
@@ -230,4 +232,96 @@ body
 .states span 
 {
     color: white;
+}
+
+.list_information
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-column: span 2;
+    grid-gap: 10px;
+}
+.cost
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 50px;
+}
+.cost span
+{
+    color: white;
+}
+.buttons_information
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.buttons_information a
+{
+    color: white;
+    text-decoration: none;
+    width: auto;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+.buttons_information a:active
+{
+    transform: scale(0.96);
+}
+
+@media screen and (max-width: 844px)
+{
+    .container_pickups
+    {
+        width: 90%;
+        height: auto;
+    }
+    .article_pickups
+    {
+        width: 100%;
+        height: auto;
+    }
+    .pickups
+    {
+        width: 100%;
+        height: auto;
+    }
+    .pickup
+    {
+        width: 100%;
+        height: auto;
+    }
+    .car_png
+    {
+        width: 100%;
+        height: auto;
+    }
+   .container_image_card
+   {
+    width: 100%;
+    height: auto;
+   }
+   .img_vehicle
+   {
+    width: 100%;
+   }
+   .pickups_details
+   {
+    width: 100%;
+   }
+   .subtitle_global
+   {
+    font-size: 18px;
+   }
 }
