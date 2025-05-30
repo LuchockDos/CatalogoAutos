@@ -205,6 +205,7 @@ body
 .subtitle_global
 {
     color: white;
+    text-align: center;
 }
 
 .container_info_card
@@ -279,6 +280,10 @@ body
 {
     transform: scale(0.96);
 }
+.buttons_information a:hover
+{
+    background-color: rgb(24, 20, 15);
+}
 
 @media screen and (max-width: 844px)
 {
@@ -322,6 +327,7 @@ body
    }
    .subtitle_global
    {
-    font-size: 18px;
+    font-size: 15px;
+    
    }
 }
